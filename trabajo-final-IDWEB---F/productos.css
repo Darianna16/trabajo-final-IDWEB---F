@@ -1,0 +1,122 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: #fff8fb;
+    color: #333;
+}
+
+/* Menú de navegación */
+.menu-nav {
+    background: #ffb6c1;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px 0;
+    border-radius: 0 0 25px 25px;
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.25);
+    font-weight: 600;
+}
+
+.menu-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 6px 14px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.menu-nav a:hover,
+.menu-nav a.activo {
+    background-color: #ff85a2;
+}
+
+/* Estructura principal */
+main {
+    padding: 40px 70px;
+}
+
+h2 {
+    color: #ff5c8d;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 25px 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px rgba(255, 182, 193, 0.3);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff0f4;
+    border-radius: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.25);
+}
+
+h3 {
+    margin: 0;
+    color: #333;
+    font-size: 20px;
+}
+
+strong {
+    color: #ff4b7d;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* Línea divisoria */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ffb6c1;
+    margin: 40px auto;
+    width: 80%;
+    border-radius: 5px;
+}
+
+/* Pie de página */
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #fff;
+    padding: 30px 60px;
+    border-top: 3px solid #ffb6c1;
+    color: #555;
+    font-size: 14px;
+}
+
+footer h3 {
+    color: #ff5c8d;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer p {
+    margin: 6px 0;
+    line-height: 1.4;
+}

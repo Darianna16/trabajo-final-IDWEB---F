@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: #fff8fb;
+    color: #333;
+}
+
+/* NAV */
+.menu-nav {
+    background: #ffb6c1;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px 0;
+    border-radius: 0 0 25px 25px;
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.25);
+    font-weight: 600;
+}
+
+.menu-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 6px 14px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.menu-nav a:hover,
+.menu-nav a.activo {
+    background-color: #ff85a2;
+}
+
+/* FONDO Y TARJETA */
+.fondo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+
+.login-card {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 40px 50px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(255, 182, 193, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.login-card:hover {
+    transform: translateY(-5px);
+}
+
+.login-card h2 {
+    color: #ff5c8d;
+    margin-bottom: 10px;
+}
+
+.login-card p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+}
+
+/* CAMPOS */
+.grupo {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 0.9rem;
+    color: #444;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 6px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #ff85a2;
+}
+
+/* RECORDAR */
+.recordar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.recordar label {
+    font-size: 0.85rem;
+}
+
+.olvide {
+    font-size: 0.85rem;
+    color: #ff5c8d;
+    text-decoration: none;
+}
+
+.olvide:hover {
+    text-decoration: underline;
+}
+
+/* BOTONES */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff85a2;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #ff5c8d;
+}
+
+.registrar {
+    margin-top: 30px;
+}
+
+.registrar p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.botones-secundarios {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-secundario {
+    padding: 10px;
+    border: 1px solid #ff85a2;
+    background-color: transparent;
+    color: #ff85a2;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-secundario:hover {
+    background-color: #ff85a2;
+    color: #fff;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 40px 70px;
+    border-top: 3px solid #ffb6c1;
+    border-radius: 25px 25px 0 0;
+    box-shadow: 0 -4px 8px rgba(255, 182, 193, 0.25);
+    color: #555;
+    font-size: 14px;
+    text-align: left;
+}
+
+footer h4 {
+    color: #ff5c8d;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin-bottom: 6px;
+}
