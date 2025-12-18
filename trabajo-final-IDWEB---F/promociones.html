@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promociones - BobaTime</title>
     <link rel="stylesheet" href="promociones.css">
+    <script src="carrito.js" defer></script>
 </head>
 <body>
     <!-- NAV -->
@@ -33,7 +34,7 @@
                 <h3>Matcha Boba Latte</h3>
                 <p>2x1 en todos los tamaños </p>
                 <span>Válido hasta: 15 de Noviembre</span>
-                <button>Ordenar</button>
+                <button class="boton-carrito" onclick="agregarAlCarrito('Promoción Matcha Boba Latte', 15.00); animarBoton(this)">Ordenar</button>
             </div>
         </div>
 
@@ -55,7 +56,7 @@
                 <h3>Maracuyá Fresh Boba</h3>
                 <p>Combina 2 sabores y paga 1 </p>
                 <span>Hasta: 25 de Noviembre</span>
-                <button>Ordenar</button>
+                <button class="boton-carrito" onclick="agregarAlCarrito('Maracuyá Fresh Boba', 12.00); animarBoton(this)">Ordenar</button>
             </div>
         </div>
 
