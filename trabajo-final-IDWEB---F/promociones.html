@@ -45,9 +45,44 @@
                 <h3>Taro Milk Tea</h3>
                 <p>20% de descuento en tienda </p>
                 <span>Hasta: 20 de Noviembre</span>
-                <button>Ver más</button>
+                <button id="btnTaro" class="boton">Ver más</button>
             </div>
         </div>
+
+        <div class="modal" id="modalTaro">
+            <div class="modal-contenido">
+
+                <span class="cerrar" id="cerrarTaro">&times;</span>
+
+                <div class="modal-imagen">
+                    <img src="imagenes/taro.jpg" alt="Taro Milk Tea">
+                </div>
+
+                <div class="modal-info">
+                    <h2>Taro Milk Tea</h2>
+
+                    <p class="descripcion">
+                        Disfruta de nuestro delicioso <strong>Taro Milk Tea</strong>,
+                        preparado con leche cremosa y perlas de tapioca.
+                    </p>
+
+                    <ul class="beneficios">
+                        <li>✅ 20% de descuento en tienda</li>
+                        <li>📅 Vigente hasta: 20 de noviembre</li>
+                        <li>📍 Disponible en todas las tiendas</li>
+                    </ul>
+
+                    <h3 class="precio">Precio promocional: S/ 5.50</h3>
+
+                <a href="#" 
+                class="boton"
+                onclick="agregarAlCarrito('Promo Taro', 15.00)">
+                Agregar al carrito
+                </a>
+                </div>
+            </div>
+        </div>
+
 
         <!-- Tarjeta 3 -->
         <div class="promo-card">
@@ -67,7 +102,7 @@
                 <h3>Chocolate Cream Boba</h3>
                 <p>Incluye topping gratis </p>
                 <span>Hasta: 30 de Noviembre</span>
-                <button>Ver más</button>
+                <a href="promo-chocolate.html" class="boton">Ver más</a>
             </div>
         </div>
     </main>
@@ -90,6 +125,25 @@
             <p>Provincias: (COD)779-009</p>
             <p>Comprobantes Electrónicos</p>
         </div>
-    </footer>
+    </footer>   
+    <script>
+        const btnTaro = document.getElementById("btnTaro");
+        const modalTaro = document.getElementById("modalTaro");
+        const cerrarTaro = document.getElementById("cerrarTaro");
+
+        btnTaro.addEventListener("click", () => {
+            modalTaro.style.display = "flex";
+        });
+
+        cerrarTaro.addEventListener("click", () => {
+            modalTaro.style.display = "none";
+        });
+
+        window.addEventListener("click", (e) => {
+            if (e.target === modalTaro) {
+                modalTaro.style.display = "none";
+            }
+        });
+    </script>
 </body>
 </html>
