@@ -154,3 +154,18 @@ footer ul {
 footer p, footer li {
     margin: 6px 0;
 }
+
+.boton {
+    display: inline-block;
+    background-color: #ff4b7d;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.boton:hover {
+    background-color: #ff1f63;
+}

@@ -55,7 +55,7 @@
                 <span class="cerrar" id="cerrarTaro">&times;</span>
 
                 <div class="modal-imagen">
-                    <img src="imagenes/taro.jpg" alt="Taro Milk Tea">
+                    <img src="imagenes/Taro drink poster flyer feed design _ Premium PSD.jpg" alt="Taro Milk Tea">
                 </div>
 
                 <div class="modal-info">
@@ -67,18 +67,19 @@
                     </p>
 
                     <ul class="beneficios">
-                        <li>✅ 20% de descuento en tienda</li>
-                        <li>📅 Vigente hasta: 20 de noviembre</li>
-                        <li>📍 Disponible en todas las tiendas</li>
+                        <li>ʕ•́ᴥ•̀ʔっ 20% de descuento en tienda</li>
+                        <li>ʕ•́ᴥ•̀ʔっ Disponible hasta: 20 de noviembre</li>
+                        <li>ʕ•́ᴥ•̀ʔっ Disponible en todas las tiendas</li>
                     </ul>
 
-                    <h3 class="precio">Precio promocional: S/ 5.50</h3>
+                    <h3 class="precio">Precio promocional: S/ 7.92</h3>
 
-                <a href="#" 
+                <button 
                 class="boton"
-                onclick="agregarAlCarrito('Promo Taro', 15.00)">
-                Agregar al carrito
-                </a>
+                onclick="window.location.href='tiendas.html'">
+                Ordenar en tienda
+                </button>
+
                 </div>
             </div>
         </div>
@@ -100,11 +101,46 @@
             <img src="imagenes/descarga (7).jpg" alt="Chocolate Boba">
             <div class="promo-info">
                 <h3>Chocolate Cream Boba</h3>
-                <p>Incluye topping gratis </p>
+                <p>Incluye 2 toppings gratis </p>
                 <span>Hasta: 30 de Noviembre</span>
-                <a href="promo-chocolate.html" class="boton">Ver más</a>
+                <button id="btnChocolate" class="boton">Ver más</button>
             </div>
         </div>
+
+        <div class="modal" id="modalChocolate">
+            <div class="modal-contenido">
+
+                <span class="cerrar" id="cerrarChocolate">&times;</span>
+
+                <div class="modal-imagen">
+                    <img src="imagenes/descarga (7).jpg" alt="Chocolate Cream Boba">
+                </div>
+
+                <div class="modal-info">
+                    <h2>Chocolate Cream Boba</h2>
+
+                    <p class="descripcion">
+                        Disfruta de nuestro irresistible <strong>Chocolate Cream Boba</strong>,
+                        elaborado con cacao premium, leche cremosa y perlas de tapioca suaves.
+                    </p>
+
+                    <ul class="beneficios">
+                        <li>ʕ•́ᴥ•̀ʔっ Incluye 2 toppings gratis</li>
+                        <li>ʕ•́ᴥ•̀ʔっ Vigente hasta: 30 de noviembre</li>
+                        <li>ʕ•́ᴥ•̀ʔっ Disponible en todas las tiendas</li>
+                    </ul>
+
+                    <h3 class="precio">Precio promocional: S/ 25.00</h3>
+
+                    <button 
+                        class="boton"
+                        onclick="agregarAlCarrito('Chocolate Cream Boba', 25.00)">
+                        Ordenar
+                    </button>
+                </div>
+            </div>
+        </div>
+
     </main>
 
     <footer>
@@ -145,5 +181,26 @@
             }
         });
     </script>
+
+    <script>
+        const btnChocolate = document.getElementById("btnChocolate");
+        const modalChocolate = document.getElementById("modalChocolate");
+        const cerrarChocolate = document.getElementById("cerrarChocolate");
+
+        btnChocolate.addEventListener("click", () => {
+            modalChocolate.style.display = "flex";
+        });
+
+        cerrarChocolate.addEventListener("click", () => {
+            modalChocolate.style.display = "none";
+        });
+
+        window.addEventListener("click", (e) => {
+            if (e.target === modalChocolate) {
+                modalChocolate.style.display = "none";
+            }
+        });
+    </script>
+
 </body>
 </html>
