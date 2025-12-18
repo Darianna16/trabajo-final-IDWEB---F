@@ -4,7 +4,6 @@ body {
     background-color: #fff8fb;
     color: #333;
 }
-
 /* Menú de navegación */
 .menu-nav {
     background: #ffb6c1;
@@ -16,7 +15,6 @@ body {
     box-shadow: 0 4px 8px rgba(255, 105, 180, 0.25);
     font-weight: 600;
 }
-
 .menu-nav a {
     color: #fff;
     text-decoration: none;
@@ -25,29 +23,24 @@ body {
     border-radius: 12px;
     transition: 0.3s ease;
 }
-
 .menu-nav a:hover,
 .menu-nav a.activo {
     background-color: #ff85a2;
 }
-
 /* Encabezado */
 .promo-header {
     text-align: center;
     margin: 50px 0 30px 0;
 }
-
 .promo-header h1 {
     font-size: 36px;
     color: #ff5c8d;
     margin-bottom: 10px;
 }
-
 .promo-header p {
     color: #666;
     font-size: 18px;
 }
-
 /* Contenedor principal */
 .promo-container {
     display: grid;
@@ -55,7 +48,6 @@ body {
     gap: 30px;
     padding: 0 80px 60px;
 }
-
 .promo-card {
     background-color: #fff;
     border-radius: 20px;
@@ -66,41 +58,34 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
 .promo-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 16px rgba(255, 105, 180, 0.35);
 }
-
 .promo-card img {
     width: 100%;
     height: 220px;
     object-fit: cover;
 }
-
 .promo-info {
     text-align: center;
     padding: 20px;
 }
-
 .promo-info h3 {
     color: #ff4b7d;
     margin-bottom: 8px;
 }
-
 .promo-info p {
     color: #555;
     font-size: 15px;
     margin: 0 0 6px 0;
 }
-
 .promo-info span {
     font-size: 13px;
     color: #888;
     display: block;
     margin-bottom: 12px;
 }
-
 .promo-info button {
     background-color: #ff85a2;
     color: white;
@@ -111,11 +96,9 @@ body {
     font-weight: 600;
     transition: 0.3s ease;
 }
-
 .promo-info button:hover {
     background-color: #ff5c8d;
 }
-
 .promo-info a {
     background-color: #ff85a2;
     color: white;
@@ -128,11 +111,9 @@ body {
     text-decoration: none;
     display: inline-block;
 }
-
 .promo-info a:hover {
     background-color: #ff6f91;
 }
-
 .modal {
     display: none; /* CLAVE */
     position: fixed;
@@ -142,7 +123,6 @@ body {
     align-items: center;
     z-index: 1000;
 }
-
 .modal-contenido {
     background: #fff;
     width: 80%;
@@ -152,7 +132,6 @@ body {
     overflow: hidden;
     position: relative;
 }
-
 .cerrar {
     position: absolute;
     top: 15px;
@@ -160,7 +139,6 @@ body {
     font-size: 26px;
     cursor: pointer;
 }
-
 /* Imagen */
 .modal-imagen {
     flex: 1;
@@ -168,46 +146,38 @@ body {
     text-align: center;
     background: #f9f9f9;
 }
-
 .modal-imagen img {
     max-width: 300px;
     width: 100%;
     border-radius: 15px;
 }
-
 /* Información */
 .modal-info {
     flex: 1;
     padding: 30px;
 }
-
 .modal-info h2 {
     margin-bottom: 10px;
 }
-
 .descripcion {
     color: #555;
     margin-bottom: 15px;
 }
-
 /* Beneficios */
 .beneficios {
     list-style: none;
     padding: 0;
     margin-bottom: 20px;
 }
-
 .beneficios li {
     margin-bottom: 8px;
     font-size: 15px;
 }
-
 /* Precio */
 .precio {
     color: #e91e63;
     margin-bottom: 20px;
 }
-
 /* Cantidad */
 .cantidad {
     display: flex;
@@ -215,7 +185,6 @@ body {
     gap: 10px;
     margin-bottom: 20px;
 }
-
 .cantidad button {
     width: 32px;
     height: 32px;
@@ -224,7 +193,6 @@ body {
     font-size: 18px;
     cursor: pointer;
 }
-
 /* Botón */
 .btn-agregar {
     width: 100%;
@@ -236,7 +204,6 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
-
 /* Pie de página */
 footer {
     display: grid;
@@ -247,13 +214,11 @@ footer {
     color: #555;
     font-size: 14px;
 }
-
 footer h4 {
     color: #ff5c8d;
     font-size: 17px;
     margin-bottom: 10px;
 }
-
 footer p {
     margin: 5px 0;
     line-height: 1.5;
@@ -276,7 +241,6 @@ footer p {
         transform 0.3s ease,
         opacity 0.3s ease;
 }
-
 .boton-carrito.added {
     background-color: #ff5c8d;
     color: white;
@@ -298,7 +262,6 @@ footer p {
     background-color: #ff5c8d;
     transform: translateY(-2px);
 }
-
 .modal a:focus,
 .modal button:focus {
     outline: none;

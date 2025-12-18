@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     background-color: #fff;
     color: #333;
 }
-
 /* ===== Encabezado ===== */
 .menu-nav {
     background-color: #f9b7c4;
@@ -17,19 +15,16 @@ body {
     justify-content: center;
     gap: 40px;
 }
-
 .menu-nav a {
     text-decoration: none;
     color: #fff;
     font-weight: 600;
     transition: color 0.3s;
 }
-
 .menu-nav a:hover,
 .menu-nav a.activo {
     color: #ffeef2;
 }
-
 /* ===== Contenido ===== */
 main {
     max-width: 1100px;
@@ -37,13 +32,11 @@ main {
     padding: 0 20px;
     text-align: center;
 }
-
 #nosotros h2 {
     color: #ff6b89;
     font-size: 2rem;
     margin-bottom: 30px;
 }
-
 #nosotros article {
     background-color: #fff6f8;
     padding: 25px;
@@ -51,19 +44,16 @@ main {
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
-
 #nosotros h3 {
     color: #ff6b89;
     font-size: 1.3rem;
     margin-bottom: 10px;
 }
-
 #nosotros p {
     color: #555;
     font-size: 1rem;
     line-height: 1.6;
 }
-
 /* ===== Pie de página ===== */
 footer {
     background-color: #fff;
@@ -76,12 +66,13 @@ footer {
     gap: 20px;
     text-align: left;
 }
-
 footer p {
     color: #555;
     font-size: 0.9rem;
 }
-
 footer ul p {
     margin: 6px 0;
 }
+.nav-enlace{
+    color: black;
+} 

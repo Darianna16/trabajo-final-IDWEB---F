@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="contacto_grupal.css">
+</head>
+<body>
+  <div class="contenedor-general">
+  <header>
+            <nav class="menu-nav">
+            <a href="principal.html">Inicio</a>
+            <a href="promociones.html">Promociones</a>
+            <a href="productos.html">Productos</a>
+            <a href="tiendas.html">Tiendas</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="Sesion.html">Cuenta</a>
+            <a href="carrito.html"><img src="imagenes/carrito.png" width="40"></a>
+        </nav>
+  </header>
+
+  <main class="main">
+    <!-- Hero -->
+    <section class="contacto contacto-general">
+      <div class="contenedor contacto-contenido">
+        <h2 class="contacto-titulo">Contacto</h2>
+        <p class="contacto-descripcion">¿Tienes alguna duda o sugerencia? Escríbenos y te responderemos pronto.</p>
+      </div>
+    </section>
+
+    <!-- Contacto: formulario minimalista y semántico -->
+    <section class="seccion contacto-seccion">
+      <div class="contenedor contacto-contenedor">
+        <form id="formContacto" class="form-contacto" novalidate>
+          <!-- Nombre -->
+          <div class="campo">
+            <label for="nombre">Nombre completo *</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            <div class="error" id="error-nombre" aria-live="polite"></div>
+          </div>
+
+          <!-- Email -->
+          <div class="campo">
+            <label for="email">Correo electrónico *</label>
+            <input type="email" id="email" name="email" placeholder="tunombre@ejemplo.com" required>
+            <div class="error" id="error-email" aria-live="polite"></div>
+          </div>
+
+          <!-- Teléfono (opcional pero validado si se completa) -->
+          <div class="campo">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="987 654 321">
+            <div class="error" id="error-telefono" aria-live="polite"></div>
+          </div>
+
+          <!-- Mensaje -->
+          <div class="campo">
+            <label for="mensaje">Mensaje *</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+            <div class="error" id="error-mensaje" aria-live="polite"></div>
+          </div>
+
+          <!-- Botón -->
+          <div class="acciones">
+            <button type="submit" class="boton-principal">Enviar mensaje</button>
+          </div>
+
+          <!-- Confirmación local / servidor -->
+          <p id="confirmacion" class="confirmacion oculto" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+    <footer>
+        <div>
+            <h3>Sobre Nosotros</h3>
+            <ul>
+                <li>Nuestra Compañía</li>
+                <li>Nuestras bebidas</li>
+                <li>Servicio al cliente</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Lema</h3>
+            <ul>
+                <li>Visión</li>
+                <li>Misión</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Atención al cliente</h3>
+            <ul>
+                <li>Teléfono Lima: (01)505-0050</li>
+                <li>Teléfono Provincia: (COD)779-009</li>
+                <li>Comprobantes electrónicos</li>
+                <li><a href="contacto_grupal.html" class="nav-enlace">Enviar mensaje</a></li>
+                <li><a href="admi_grupal.html" class="nav-enlace">Administración</a></li>
+            </ul>
+        </div>
+    </footer>
+
+  <script src="contacto_grupal.js"></script>
+</body>
+</html>

@@ -1,19 +1,15 @@
 /* ======= ESTILO GENERAL ======= */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
 body {
     background-color: #fff8fb;
     color: #333;
 }
-
-
 /* ======= MENÚ DE NAVEGACIÓN ======= */
 .menu-nav {
     background: #ffb6c1;
@@ -25,7 +21,6 @@ body {
     box-shadow: 0 4px 12px rgba(255,105,180,0.25);
     font-weight: 600;
 }
-
 .menu-nav a {
     color: white;
     text-decoration: none;
@@ -34,13 +29,10 @@ body {
     border-radius: 12px;
     transition: 0.3s ease;
 }
-
 .menu-nav a:hover,
 .menu-nav a.activo {
     background-color: #ff85a2;
 }
-
-
 /* ======= TITULO PRINCIPAL ======= */
 header h1 {
     text-align: center;
@@ -48,24 +40,19 @@ header h1 {
     color: #ff4b7d;
     margin-top: 15px;
 }
-
-
 /* ======= CONTENIDO ======= */
 main {
     padding: 40px 70px;
 }
-
 h2 {
     color: #ff5c8d;
     font-size: 26px;
     margin-bottom: 8px;
 }
-
 p {
     color: #555;
     line-height: 1.6;
 }
-
 section {
     background-color: #fff;
     border-radius: 20px;
@@ -73,13 +60,11 @@ section {
     margin-bottom: 40px;
     box-shadow: 0 4px 12px rgba(255,182,193,0.3);
 }
-
 h3 {
     color: #ff4b7d;
     font-size: 22px;
     margin-bottom: 15px;
 }
-
 article {
     background-color: #fff0f4;
     padding: 20px;
@@ -87,24 +72,19 @@ article {
     margin-bottom: 20px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
 article:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 10px rgba(255,105,180,0.25);
 }
-
 article h4 {
     font-size: 19px;
     color: #333;
     margin-bottom: 5px;
 }
-
 article strong {
     color: #ff4b7d;
     font-weight: 700;
 }
-
-
 /* ======= IMÁGENES ======= */
 article img {
     width: 100%;
@@ -114,8 +94,6 @@ article img {
     object-fit: cover;
     background-color: #ffe9f0;
 }
-
-
 /* ======= LÍNEA DIVISORIA ======= */
 hr {
     border: none;
@@ -125,8 +103,6 @@ hr {
     width: 80%;
     border-radius: 10px;
 }
-
-
 /* ======= FOOTER ======= */
 footer {
     display: grid;
@@ -138,23 +114,19 @@ footer {
     color: #555;
     font-size: 14px;
 }
-
 footer h3 {
     color: #ff5c8d;
     font-size: 16px;
     margin-bottom: 10px;
 }
-
 footer ul {
     padding: 0;
     list-style: none;
     line-height: 1.5;
 }
-
 footer p, footer li {
     margin: 6px 0;
 }
-
 .boton {
     display: inline-block;
     background-color: #ff4b7d;
@@ -165,7 +137,6 @@ footer p, footer li {
     font-weight: 600;
     margin-top: 8px;
 }
-
 .boton:hover {
     background-color: #ff1f63;
 }
